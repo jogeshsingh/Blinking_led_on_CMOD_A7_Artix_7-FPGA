@@ -126,7 +126,7 @@ Make sure while programming FPGA , you have got it connected with your Laptop/P
 ![16](https://user-images.githubusercontent.com/98607828/225979779-f0a608cc-2209-44ba-9da7-6be304c8ea5a.jpg)
 
 18. DEMO
-led blink test successfullThat's it, folks, now I hope you would be able to do basic FPGA design from scratch...
+led blink test successfull that's it, folks, now I hope you would be able to do basic FPGA design from scratch...
    
 ![My Video](https://user-images.githubusercontent.com/98607828/225979984-65ded42a-8dc9-4904-bf22-6f9115df8694.gif)
 

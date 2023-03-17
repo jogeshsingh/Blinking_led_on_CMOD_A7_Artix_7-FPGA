@@ -5,30 +5,40 @@ Run VIVADO
 
 I am assuming you may have already opened one project , if not then click on create new project
 
+
 ![01](https://user-images.githubusercontent.com/98607828/225977020-ee7f008a-b02f-4dac-9c61-df75a94231d5.jpg)
 
+
 else
+
 follow the next window if you already opened a project.
+
 1.click on file->New
+
 ![1](https://user-images.githubusercontent.com/98607828/225977035-8bc01f1f-c4de-49f2-b3a6-65266a00466d.jpg)
 
   
 2. click Next
+
  ![2](https://user-images.githubusercontent.com/98607828/225977298-ea52197a-dfb6-46d0-992c-9549622328e8.jpg)
 
  
 3. Give an appropriate name to the project so you can remember, and also the location where you can come back and add more files.
+
 ![3](https://user-images.githubusercontent.com/98607828/225977345-63a67884-c7b1-4bd2-afb5-f1a241969294.jpg)
 
 4 . click Next
+
 ![4](https://user-images.githubusercontent.com/98607828/225977417-6d778de9-311c-4866-af79-9c63bc4745a3.jpg)
 
 5.Select the family name , Package and speed grade as accordingly.
+
 ![5](https://user-images.githubusercontent.com/98607828/225977518-2b7ee665-7553-47ab-9645-1ae96ed8c3b4.jpg)
 
 
 
 6.click finish
+
 ![6](https://user-images.githubusercontent.com/98607828/225977683-15026cde-c50d-4228-aeec-843d7e063246.jpg)
 
 
@@ -37,6 +47,7 @@ follow the next window if you already opened a project.
 ![7](https://user-images.githubusercontent.com/98607828/225977785-b9cc5851-acb7-4372-a60a-b6a6ade30226.jpg)
 
 8.Give a name to Verilog HDL file. You can also choose VHDL/System Verilog but for that you have to write hdl code in those languages.
+
   ![8](https://user-images.githubusercontent.com/98607828/225977844-414071bd-7da6-4028-9861-60dcffc0eafd.jpg)
 
 
@@ -46,6 +57,7 @@ follow the next window if you already opened a project.
 
 
 10.Click Ok.
+
 ![10](https://user-images.githubusercontent.com/98607828/225977973-47e30343-a0f1-42ed-9ccd-587fbf125da1.jpg)
 
 11. Click Finish.
@@ -82,7 +94,8 @@ since this is just a basic blinky test on FPGA, so we're assuming the RTL code w
 Anyways, I would definitely show you, how it looks like, because waveforms are sort of heart of FPGA design signals. 😀
 Now, as we added design file, similarly we 'll add simulation file.
 
- ![15](https://user-images.githubusercontent.com/98607828/225978515-5cebd709-c174-4a92-95dc-0616be13afab.jpg)
+![sim](https://user-images.githubusercontent.com/98607828/225980342-a5689962-56a0-479a-9a3f-d9f676724e08.jpg)
+
  
  here's how typical led blinky testbench look like in Verilog
 Quite easy, right?
@@ -100,8 +113,8 @@ click on Run Simulation in Project Manager - Run as Behavioral Simulation.
 
 16.Now as we have also simulated and check the functional verification of our logic design, now next flow is pretty easy, just click on Generate Bitstream in Project manager as it would ask you about running synthesis, before implementation, you should accept it by clicking as yes.
 
+![15](https://user-images.githubusercontent.com/98607828/225980396-0a83f496-53cd-42f3-bd17-f3c982c4414c.jpg)
 
-![16](https://user-images.githubusercontent.com/98607828/225978954-d3a46b94-1773-4668-a75d-244b170555ec.jpg)
 
 
 
